@@ -50,7 +50,7 @@
 - View 视图
   - JSP担任,负责显示资料。
 - Controller 控制器
-  - 例如 Spring 的 DispatcherServlet
+  - 例如 Spring 的 `DispatcherServlet`
 
 
 
@@ -64,7 +64,7 @@
 
 ![](https://file.chaobei.xyz/202201071022603.png_imagess)
 
-1. 用户在页面上出发动作
+1. 用户在页面上出发 `动作`
 2. Controller(Servlet) 接收到动作
 3. 按照动作去调用不同的Model，组合要返回的页面View和数据。
 4. 浏览器按照返回的页面，渲染展示给用户。
@@ -75,7 +75,7 @@
 
 个人的理解应该是：随着前后端的分离，在页面触发一个动作的时候，不需要页面全部都更新，只需要更新部分，然后就衍生出 `JSON` 的前后端交互方式。
 
-
+![](https://file.chaobei.xyz/20220110221303.png_imagess)
 
 :question: 这个是一种全新的架构模式，还是说是一种 `MVC` 的改进版呢？
 
@@ -87,13 +87,17 @@
 
 
 
+![](https://file.chaobei.xyz/20220110230252.png_imagess)
 
-
-
+> 对于领域驱动型模型的理解：https://github.com/maruichao52/ddd-spring-demo
 
 
 
 ### :pushpin: 代码提交规范
+
+
+
+
 
 
 
